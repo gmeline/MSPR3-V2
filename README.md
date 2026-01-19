@@ -15,39 +15,6 @@ abstention et participation
 résultats électoraux
 familles politiques
 
-Arborescence du projet
-MSPR/
-│
-├── data_clean/ # Données nettoyées prêtes à l’analyse
-│ ├── chomage_2022_T3.csv
-│ ├── elections_t1.csv
-│ ├── elections_t2.csv
-│ ├── table_finale.csv
-│ ├── table_finale_famille.csv
-│ ├── table_finale_HDF.csv
-│ └── table_finale_HDF_famille.csv
-│
-├── data_raw/ # Données brutes
-│
-├── images/ # Résultats graphiques
-Machine Learning
-│ ├── ml_accuracy_comparison.png
-│ ├── ml_confusion_matrices.png
-│ ├── ml_feature_importance.png
-│ └── ml_roc_curves.png
-│
-├── script/ # Scripts Python
-│ ├── etl_cleaning.py
-│ ├── generation_dump.py
-│ └── model_ml.py
-│
-├── visualisation/ # Application Streamlit
-│ └── app.py
-│
-├── database.db # Base de données SQLite
-├── dump.sql # Dump SQL
-└── README.md
-
 Technologies utilisées
 Python 3.12
 Pandas — manipulation de données
